@@ -1,5 +1,6 @@
 :root {
     --color-link: #a6d8ff;
+    --color-link-visited: #C4B5FD;
     --color-bg: #181818;
     --color-text: #f8f8f8;
 }
@@ -9,6 +10,7 @@
         --color-text: #181818;
         --color-bg: #f8f8f8;
         --color-link: #004B80;
+        --color-link-visited: #51418A;
     }
 }
 
@@ -33,6 +35,11 @@ a {
     text-decoration: none;
     color: var(--color-link);
 }
+
+a:visited {
+    color: var(--color-link-visited);
+}
+
 
 a:hover {
     text-decoration: underline;
